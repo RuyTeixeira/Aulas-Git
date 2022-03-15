@@ -1,0 +1,11 @@
+tasa4 1d
+tasa4 15min
+eqin11 1d
+cple6f
+posi3
+eqtl3
+wege3
+intb3
+leve3
+suzb3
+
