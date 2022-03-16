@@ -1,27 +1,3 @@
-Como gerar chave
-https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
-Local que a chave fica salva.
-/home/ruy/.ssh/id_ed25519
-
-como adicionar a chave SSH no github
-https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
-
-
-para configurar o usuário no git
-git config --global user.name "Ruy"
-
-para configurar o email no git
-git config --global user.email "ruy1984@gmail.com"
-
-para configurar seu editor no git
-git config --global core.editor notepad++
-
-para listar as configurações do git
-git config --list
-
-para iniciar o git, dentro da pasta que você deseja pelo cmd.
-git init
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> STATUS DOS ARQUIVOS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 | UNTRACKED -> AINDA NÃO FOI VISTO PELO GIT                                       |
@@ -30,35 +6,4 @@ git init
 | STAGED -> ARQUIVO PRONTO PARA SER COMITADO                                      |
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-quando modifica um arquivo que já foi comitado, precisa adicionar ele pra conseguir dar commit.
-
-
-
-git add nome do arquivo  -> vai incluir o arquivo
-
-git status -> vai exibir o status dos arquivos que você tem no git
-
-git commit -m ""  -> vai comitar o arquivo e adicionar um comentário ( -m)
-
-git log -> usado para ver o log dos arquivos
-
-git log -- decorate -> mostra algumas informações a mais.
-
-git log --author="Ruy" -> vai buscar todos os commits que tem como autor o Ruy
-
-git shortlog -> mostra em ordem ordem alfabética os autores, quantos commits tem, quais commits.
-
-git shortlog -sn -> mostra a quantidade de commit por author.
-
-git log --graph -> mostra em formato de "grafico" o que está acontecendo com os branches e versões
-
-git show código_da_hash -> vai exibir o que aconteceu nela
- 
-------- git diff
-
-git diff -> exibe o que foi modificado no arquivo antes de fazer o commit.
-git diff --name only -> exibe somente o nome do arquivo que foi modificado
-
-git commit -am "acoes" -> faz o comitt do arquivo que você deseja
-
-git checkout nome.arquivo -> vai excluir a ultima modificação em arquivo ainda não comitado
+teste 1 
