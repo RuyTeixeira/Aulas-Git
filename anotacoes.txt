@@ -57,6 +57,8 @@ git show código_da_hash -> vai exibir o que aconteceu nela
 ------- git diff
 
 git diff -> exibe o que foi modificado no arquivo antes de fazer o commit.
-git diff --name only -> exibe somente o nome do arquivo modificado
+git diff --name only -> exibe somente o nome do arquivo que foi modificado
 
 git commit -am "acoes" -> faz o comitt do arquivo que você deseja
+
+git checkout nome.arquivo -> vai excluir a ultima modificação em arquivo ainda não comitado
