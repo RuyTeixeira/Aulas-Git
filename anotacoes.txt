@@ -105,4 +105,11 @@ git branch -M main -> não utilizei, mas serve para renomear a branch para Main 
 
 git push -u origin master ->  conecta efetivamente o git local (masters) com o github (origin)
 
+git push origin master -> git push diretorio pra onde quero ir (origin) e o branch
 
+git clone git@github.com:RuyTeixeira/Aulas-Git.git -> g clone mais  a url do repositorio para clonar 
+
+FORK -> no github existe a opção de fazer uma cópia de um repositório de outra pessoa, para isso é utilizada a opção fork
+
+>>>>> CRIAR BRANCH <<<<<
+git checkout -b nome_do_branch -> cria um branch (-b indica isso).
