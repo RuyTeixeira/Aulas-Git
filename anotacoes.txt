@@ -1,13 +1,8 @@
-Como gerar chave
-https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
-Local que a chave fica salva.
-/home/ruy/.ssh/id_ed25519
-
-como adicionar a chave SSH no github
-https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
-
-
+=============================================================================
+=                                                                           = 
+=                              GIT                                          =
+=                                                                           =
+=============================================================================
 para configurar o usuário no git
 git config --global user.name "Ruy"
 
@@ -38,7 +33,9 @@ git add nome do arquivo  -> vai incluir o arquivo
 
 git status -> vai exibir o status dos arquivos que você tem no git
 
-git commit -m ""  -> vai comitar o arquivo e adicionar um comentário ( -m)
+git commit -m "Mensagem"  -> vai comitar o arquivo e adicionar um comentário ( -m)
+
+git commit -am "Mensagem" -> vai adicionar todos os arquivos modificados
 
 git log -> usado para ver o log dos arquivos
 
@@ -62,3 +59,50 @@ git diff --name only -> exibe somente o nome do arquivo que foi modificado
 git commit -am "acoes" -> faz o comitt do arquivo que você deseja
 
 git checkout nome.arquivo -> vai excluir a ultima modificação em arquivo ainda não comitado
+
+git reset HEAD -> quando add o arquivo porém deseja voltar antes de dar commit, ele vai fazer uma exclusao da última alteração, só fazer um
+git checkout para excluir em definitivo as últimas alterações
+
+>>>>> git reset <<<<< sintaxe git reset -- hard hash anterior a que deseja resetar
+git reset --soft  -> vai voltar o commit, deixa o arquivo em staged pronto para ser comitado novamente
+git reset --mixed -> vai voltar o commit, deixa o arquivo antes do staged no status modifed, consigo editar ou fazer checkout
+git reset -- hard -> vai ignorar todo que subiu no commit. Seleciona a hash que você deseja deixar
+
+
+=============================================================================
+=                                                                           = 
+=                              GITHUB                                       =
+=                                                                           =
+=============================================================================
+
+Como gerar chave
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
+
+
+Local que a chave fica salva.
+Chave privada in C:\Users\Ruy/.ssh/id_rsa.
+Chave publica C:\Users\Ruy/.ssh/id_rsa.pub.
+
+como adicionar a chave SSH no github
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+>>>>>>>>>> criar um repositório <<<<<<<<<<<<<<<
+no menu + ao lado do usuário, selecionar a opção incluir repositório
+
+https://github.com/RuyTeixeira/Aulas-Git
+
+…or push an existing repository from the command line quando já tem repositório local
+
+git remote add origin https://github.com/RuyTeixeira/Aulas-Git.git -> adiciona um repositório remoto com nome origin e o endereço do repositório
+
+git remote -> para visualizar o repositório que está associado como remoto
+
+git remove -v -> busca mais detalhes sobre esse repositório
+
+git branch -M main -> não utilizei, mas serve para renomear a branch para Main ao invés de Master 
+
+git push -u origin master ->  conecta efetivamente o git local (masters) com o github (origin)
+
+
