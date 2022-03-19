@@ -1,0 +1,10 @@
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> STATUS DOS ARQUIVOS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+| UNTRACKED -> AINDA NÃO FOI VISTO PELO GIT                                       |
+| UNMODIFIED -> AINDA NÃO FOI MODIFICADO                                          |
+| MODIFED -> ARQUIVO MODIFICADO MAS AINDA NÃO FOI LEVADO PARA SER SALVO EM IMAGEM |
+| STAGED -> ARQUIVO PRONTO PARA SER COMITADO                                      |
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+teste 1 
+teste2
