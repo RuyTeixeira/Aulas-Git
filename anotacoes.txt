@@ -31,6 +31,8 @@ quando modifica um arquivo que já foi comitado, precisa adicionar ele pra conse
 
 git add nome do arquivo  -> vai incluir o arquivo
 
+git add --all :/ -> para subir pastas e subpastas 
+
 git status -> vai exibir o status dos arquivos que você tem no git
 
 git commit -m "Mensagem"  -> vai comitar o arquivo e adicionar um comentário ( -m)
